@@ -4,6 +4,6 @@
 	<title></title>
 </head>
 <body>
-<h2>Hola <?php echo $Funcionarios[0]['descripcion'];?></h2>
+<h2>Hola <?php echo $Personas[0]['nombre'];?></h2>
 </body>
 </html>
