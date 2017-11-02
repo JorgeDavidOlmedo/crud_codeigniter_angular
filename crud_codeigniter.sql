@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 02, 2017 at 02:48 AM
+-- Generation Time: Nov 02, 2017 at 09:44 PM
 -- Server version: 5.7.19
 -- PHP Version: 7.0.18
 
@@ -35,6 +35,14 @@ CREATE TABLE `personas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Dumping data for table `personas`
+--
+
+INSERT INTO `personas` (`id`, `nombre`, `apellido`) VALUES
+(1, 'Jorge', 'Olmedo'),
+(2, 'Oscar', 'Olmedo');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -52,7 +60,7 @@ ALTER TABLE `personas`
 -- AUTO_INCREMENT for table `personas`
 --
 ALTER TABLE `personas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
